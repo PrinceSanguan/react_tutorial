@@ -4,6 +4,8 @@
 
 body {
   margin: 0;
+  height: 100vh;
+  background-color: #282d35;
 }
 
 nav {
@@ -31,4 +33,25 @@ nav h2 {
 nav > img {
   width: 100px;
   margin-right: 8px;
+}
+
+main {
+  padding: 57px 27px;
+  color: white;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
 }
