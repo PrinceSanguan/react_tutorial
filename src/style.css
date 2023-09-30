@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+  padding: 30px 25px;
+  height: 90px;
+}
+
+nav > h1,
+nav > h2 {
+  margin: 0;
+}
+
+nav h1 {
+  margin-right: auto;
+  color: #61dafb;
+}
+
+nav h2 {
+  color: #deebf8;
+}
+
+nav > img {
+  width: 100px;
+  margin-right: 8px;
+}
